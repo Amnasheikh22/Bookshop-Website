@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.main{
+    padding:0;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    padding:0px;
+margin:0px;
+}
+.nav{
+    /* border:1px solid black; */
+    width:100%;
+    height:40px;
+    display:flex;
+}
+.logo{
+    /* border:1px solid black; */
+    width:100px;
+    height:40px;
+    float:left;
+}
+
+.links{
+    /* border:1px solid black; */
+    width:510px;
+    height:40px;
+    margin:auto;
+    display:flex;
+    /* color:white; */
+   
+}
+.link input{
+    border-radius:30px;
+
+}
+.nav .links a{
+    color:black;
+    margin-top:7px;
+    margin-left:5px;
+
+}
+a{
+    padding:4px;
+    list-style:none;
+    text-decoration: none;
+     color:white;
+    
+   
+
+}
+a :hover{
+    color:yellow;
+}
+
+input{
+    display:flex;
+    margin-left:24px;
+    width:305px;
+    height:27px;
+    margin-top:3px;
+    border-radius:30px;
+
+}
+i{
+    margin-left:-35px;
+    margin-top:9px;
+}
+.btn{
+    /* border:1px solid black; */
+    width:230px;
+    height:40px;
+    float:right;
+    display:flex;
+   
+}
+.bttn{
+    border-radius:4px;
+    width:150px;
+    height:40px;
+    color:white;
+    
+    padding-left:10px;
+    padding-right:10px;
+    background-color: black;
+
+   
+
+
+}
+button{
+    margin-left:5px;
+}
+
+
+ body{
+   background: url(./images/blue\ texture.jpg);
+   background-position:cover;
+   background-size:100%;
+    padding:0;
+    margin:0;
+    
+   
+ }
+ 
+ 
+
+ 
+ .card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+ transition: 0.3s;
+ /* border:1px solid white; */
+ width:200px;
+ border-radius:5px;
+ margin-left:5px;
+ margin-right:5px;
+display:flex;
+ padding:20px;
+ height:300px;
+ margin-top:10px;
+ 
+ margin:10px;
+ 
+ 
+}
+.card img{
+width:100%;
+height:200px;
+
+}
+.card p{
+   display:inline-block;
+   margin-top:223px;
+   margin-left:-144px;
+
+}
+
+/* .btn{
+    
+    width:150px;
+    height:44px;
+    color:black;
+    background-color: white;
+    /* margin-left:40px; */
+    /* border-radius:5px;
+    margin-top:20px;
+    margin-left:21px;
+     */
+
+
+ 
+ /* .btn a{
+   color:black;
+ } */ */
+.dash{
+   border:1px solid white;
+   
+}
+.dash h1,h3{
+   text-align:center;
+}
+
+.container{
+color:white;
+padding-top:0;
+margin-top:-20px;
+margin:40px;
+display:flex;
+
+
+}
+.container p{
+   margin:auto;
+}
+.bio{
+   margin:auto;
+   width:740px;
+   height:100px;
+   /* border:1px solid white; */
+   margin-top:154px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37);
+   padding:10px;
+   margin-right:306px;
+  
+}
+.bio p{
+   padding:5px;
+}
+h1{
+   Font-size:50px;
+   text-align:center;
+   color:white;
+   margin-top:15px;
+   display:inline-block;
+   margin-left:576px;
+   margin-bottom:5px;
+
+}
+h3{
+   Font-size:18px;
+   text-align:center;
+   color:white;
+   margin-top:-20px;
+   display:inline-block;
+   font-style: normal;
+   margin-left:478px;
+
+
+}
+h2{
+   Font-size:24px;
+   text-align:center;
+   color:white;
+   margin-top:10px;
+   display:inline-block;
+   float:left;
+   margin-left:10px;
+
+}
+.gallery{
+   width:800px;
+   height:200px;
+   display:flex;
+   margin:auto;
+   padding:30px;
+}
+/* .year{
+   float:right;
+   font-size:16px;
+   color:white;
+   margin-top:10px;
+   display:inline-block;
+   margin-right:10px;
+
+ } */
+
+/* h4{
+font-size:20px;
+display:inline-block;
+margin:5px;
+text-align:center;
+margin-left:-10px;
+
+
+}
+p{
+   margin:5px;
+
+
+} */
+
+.footer{
+   /* border:1px solid pink; */
+   width:100%;
+   height:100px;
+   display:flex;
+  margin-top:0px;
+   background-color: black;
+   font-family: "Kulim Park", sans-serif;
+  
+   
+
+
+}
+.foot1 {
+   /* border:1px solid pink; */
+   width:450px;
+   height:100px;
+  text-align:left;
+  color:rgb(255, 255, 255);
+ 
+  
+  
+
+
+}
+.footer h3,h4{
+   margin-left:100px;
+   margin-top:20px;
+   line-height:5px;
+}
+.footer h4{
+   font-size:14px;
+  
+   
+}
+
+
+.foot2 {
+   /* border:1px solid pink; */
+   width:450px;
+   height:100px;
+   text-align:left;
+   color:rgb(255, 255, 255);
+   
+  
+
+
+}
+.foot3 {
+   /* border:1px solid pink; */
+   width:450px;
+   height:100px;
+   text-align:left;
+   color:rgb(255, 255, 255);
+  
+}

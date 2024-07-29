@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.main{
+    padding:0;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    padding:0px;
+margin:0px;
+}
+.nav{
+    /* border:1px solid black; */
+    width:100%;
+    height:40px;
+    display:flex;
+}
+.logo{
+    /* border:1px solid black; */
+    width:100px;
+    height:40px;
+    float:left;
+}
+
+.links{
+    /* border:1px solid black; */
+    width:510px;
+    height:40px;
+    margin:auto;
+    display:flex;
+    /* color:white; */
+   
+}
+.link input{
+    border-radius:30px;
+
+}
+.nav .links a{
+    color:black;
+    margin-top:7px;
+    margin-left:5px;
+
+}
+a{
+    padding:4px;
+    list-style:none;
+    text-decoration: none;
+     color:white;
+    
+   
+
+}
+a :hover{
+    color:yellow;
+}
+
+input{
+    display:flex;
+    margin-left:24px;
+    width:305px;
+    height:27px;
+    margin-top:3px;
+    border-radius:30px;
+
+}
+i{
+    margin-left:-35px;
+    margin-top:9px;
+}
+.btn{
+    /* border:1px solid black; */
+    width:230px;
+    height:40px;
+    float:right;
+    display:flex;
+   
+}
+.bttn{
+    border-radius:4px;
+    width:150px;
+    height:40px;
+    color:white;
+    
+    padding-left:10px;
+    padding-right:10px;
+    background-color: black;
+
+   
+
+
+}
+button{
+    margin-left:5px;
+}
+
+
+.hero{
+    background: url(./images/library.jpeg);
+    background-size:100%;
+    background-repeat: no repeat;
+    background-position:cover;
+    border:1px solid pink;
+    width:100%;
+    height:500px;
+    margin-top:0;
+    
+   
+}
+.child1{
+    width:500px;
+    margin-top:100px;
+    margin-bottom:50px;
+    
+}
+.child1 h3, p{
+    margin-left:50px;
+    margin-top:20px;
+    color:white;
+}
+.child1 h1{
+    margin-left:50px;
+    margin-top:20px;
+    font-size:60px;
+    color:white;
+    font-style:bold;
+
+    }
+.child1 h3{
+    font-size:20px;
+    color:white;
+
+    
+}   
+.child p{
+    font-size:18px;
+    color:white;
+
+
+} 
+.child1 .buttn{
+    border-radius:4px;
+    width:150px;
+    height:40px;
+    color:white;
+    border:1px solid white;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:52px;
+    border:none;
+    background-color: black;
+
+
+}
+.icon{
+    display:flex;
+    height:32px;
+    margin-top:3px;
+    margin-left:0;
+
+}
+
+
+.section{
+   
+    /* border:1px solid pink; */
+    width:100%;
+    height:300px;
+    display:flex;
+    margin-top:0px;
+    background-color: #f6f6eb;
+    
+    
+
+}
+.para1 {
+      /* border:1px solid white; */
+      width:500px;
+    height:300px;
+    display:inline-block;
+    padding:20px;
+    
+    margin-left:200px;
+    margin-top:5px;
+ }
+.para1 h1{
+    font-size:40px;
+    text-shadow:2px;
+    line-height:10px;
+    color:black;
+    margin-top:60px;
+
+ }
+ .para1 p{
+    font-size:14px;
+    margin:auto;
+    margin-top:30px;
+    line-height:20px;
+    color:black;
+
+
+
+ }
+ .para1 .buttn{
+    border-radius:4px;
+    width:150px;
+    height:40px;
+    color:white;
+    border:1px solid white;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:0px;
+    border:none;
+    background-color: black;
+    margin-top:20px;
+
+
+ }
+ .para2{
+    background: url(./images/girl.jpg); style:"width:700px; height:200px" ;
+     background-size:100%;
+    background-repeat: no repeat;
+    background-position:cover; 
+    /* border:1px solid white; */
+    width:200px;
+    height:100px;
+    margin-top:50px;
+    margin-left:-5px;
+    float:right;
+    margin-right:-451px;
+    padding:50px;
+    border-radius:5px;
+
+    
+ }
+
+.newsletter{
+    background: url(./images/bookshelf.jpeg);
+    background-size:100%;
+    background-repeat: no repeat;
+    background-position:cover;
+    /* border:1px solid pink; */
+    height:300px;
+    display:flex;
+    margin-top:0px;
+   width:100%;
+   
+   
+  
+
+    
+   
+  
+    
+}
+.news1{
+    /* border:1px solid black; */
+    width:800px;
+    height:290px;
+    text-align:center;
+    background-color:rgba(54, 54, 54, 0.562);
+    margin-top:450px;
+    margin-bottom:50px;
+    margin:auto;
+    padding:5px;
+   
+   
+}
+.news1 h1{
+    font-size:30px;
+    text-shadow:2px;
+    line-height:10px;
+    color:white;
+    margin-top:80px;
+}
+.news p{
+    font-size:20px;
+    text-align:center;
+    margin-left:-10px;
+    margin-top:10px;
+    color:white;
+   
+}
+.newsbtn{
+    border-radius:4px;
+    width:150px;
+    height:40px;
+    color:white;
+    border:1px solid white;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:30px;
+    border:none;
+    background-color: black;
+    margin-top:10px;
+
+
+}
+.email{
+    display:flex;
+}
+.email input{
+    margin-left:170px;
+    padding:10px;
+    
+}
+
+
+.footer{
+    /* border:1px solid pink; */
+    width:100%;
+    height:100px;
+    display:flex;
+   margin-top:0px;
+    background-color: black;
+    font-family: "Kulim Park", sans-serif;
+   
+    
+
+
+}
+.foot1 {
+    /* border:1px solid pink; */
+    width:450px;
+    height:100px;
+   text-align:left;
+   color:rgb(255, 255, 255);
+  
+   
+   
+
+
+}
+.footer h3,h4{
+    margin-left:100px;
+    margin-top:20px;
+    line-height:5px;
+}
+.footer h4{
+    font-size:14px;
+   
+    
+}
+
+
+.foot2 {
+    /* border:1px solid pink; */
+    width:450px;
+    height:100px;
+    text-align:left;
+    color:rgb(255, 255, 255);
+    
+   
+
+
+}
+.foot3 {
+    /* border:1px solid pink; */
+    width:450px;
+    height:100px;
+    text-align:left;
+    color:rgb(255, 255, 255);
+   
+   
+   
+
+
+}
+
